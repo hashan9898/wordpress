@@ -1,5 +1,5 @@
 <?php
-
+define('SUBDOMAIN_INSTALL', false);
 /**
 
  * The base configuration for WordPress
@@ -187,7 +187,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 
-require_once ABSPATH . 'wp-settings.php';
+require_once ABSPATH . '/swivel_group/wp-settings.php';
 
 /**
  * Disable pingback.ping xmlrpc method to prevent WordPress from participating in DDoS attacks
